@@ -80,6 +80,7 @@ public class TokiDroneEntity extends Monster implements GeoEntity {
 		xpReward = 5;
 		setNoAi(false);
 		passengerSlots = new HashMap();
+        noCulling = false;
 		this.moveControl = new FlyingMoveControl(this, 10, true);
 	}
 
