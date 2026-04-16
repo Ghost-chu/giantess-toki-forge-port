@@ -101,7 +101,7 @@ public class TokiEntity extends Raider implements GeoEntity {
 			this.setPathfindingMalus(BlockPathTypes.LEAVES, 0.0F);
 		} ;
 		moveControl = new GtsMoveHelper(this, (float) GtsModVariables.MapVariables.get(this.level()).Toki_TurnSpeed);
-        noCulling = false;
+		noCulling = true;
 	}
 
 	protected PathNavigation createNavigation(Level world) {

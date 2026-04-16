@@ -94,7 +94,6 @@ public class TamedAraEntity extends TamableAnimal implements GeoEntity {
 		xpReward = 10;
 		setNoAi(false);
 		passengerSlots = new HashMap();
-        noCulling = false;
 		setPersistenceRequired();
 	}
 
