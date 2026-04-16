@@ -1,0 +1,449 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 400,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_aras_attacks",
+          "text": {
+            "fixedValue": "Ara's Attacks:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 20,
+          "y": 42,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_main_menu",
+          "text": "Main Menu",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "AraConfigMainMenu"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 331,
+          "y": 30,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_stomp",
+          "text": "Stomp",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DisableAraStep"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 21,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_check_disable_ara_step",
+          "text": {
+            "fixedValue": "",
+            "name": "CheckDisableAraStep"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 73,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_lowertailswipe",
+          "text": "LowerTailSwipe",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DisableAraLowTailSwipe"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 116,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_check_disable_ara_tail_swip",
+          "text": {
+            "fixedValue": "",
+            "name": "CheckDisableAraTailSwipe"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 216,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_lowertailsqueeze",
+          "text": "LowerTailSqueeze",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DisableAraTailSqueeze"
+          },
+          "width": 109,
+          "height": 20,
+          "x": 257,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_check_disable_ara_tail_sque",
+          "text": {
+            "fixedValue": "",
+            "name": "CheckDisableAraTailSqueeze"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 367,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_check_disable_ara_low_grab",
+          "text": {
+            "fixedValue": "",
+            "name": "CheckDisableAraLowGrab"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 83,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_lowgrab",
+          "text": "LowGrab",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DisableAraLowGrab"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 21,
+          "y": 78,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_middletailslap",
+          "text": "MiddleTailSlap",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DisableAraMiddleTailSlap"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 125,
+          "y": 78,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_check_disable_ara_middle_ta",
+          "text": {
+            "fixedValue": "",
+            "name": "CheckDisableAraMiddleTailSlap"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 225,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_middlegrab",
+          "text": "MiddleGrab",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DisableAraMiddleGrab"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 268,
+          "y": 78,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_check_disable_ara_middle_gr",
+          "text": {
+            "fixedValue": "",
+            "name": "CheckDisableAraMiddleGrab"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 346,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_chomp",
+          "text": "Chomp",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DisableAraChomp"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 21,
+          "y": 101,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_check_disable_ara_chomp",
+          "text": {
+            "fixedValue": "",
+            "name": "CheckDisableAraChomp"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 73,
+          "y": 106,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_aboveattack",
+          "text": "AboveAttack",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DisableAraAboveAttack"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 116,
+          "y": 101,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_check_disable_ara_above_att",
+          "text": {
+            "fixedValue": "",
+            "name": "CheckDisableAraAboveAttack"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 199,
+          "y": 106,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_breach",
+          "text": "Breach",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DisableAraBreach"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 242,
+          "y": 101,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_check_disable_ara_breach",
+          "text": {
+            "fixedValue": "",
+            "name": "CheckDisableAraBreach"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 299,
+          "y": 106,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_eat",
+          "text": "Eat",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DisableAraEat"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 21,
+          "y": 123,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_check_disable_ara_vore",
+          "text": {
+            "fixedValue": "",
+            "name": "CheckDisableAraVore"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 62,
+          "y": 128,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_breach_aggression",
+          "text": {
+            "fixedValue": "Breach Aggression:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 21,
+          "y": 147,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_value",
+          "text": {
+            "fixedValue": "Value",
+            "name": "CheckAraBreachAggression"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 118,
+          "y": 147,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "+",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "IncreaseAraBreachAggression"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 21,
+          "y": 162,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "-",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DecreaseAraBreachAggression"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 56,
+          "y": 162,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
